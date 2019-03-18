@@ -1,0 +1,62 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <article>
+          <div class="promo-title pull-right">
+            <h3>Our Unique Culinary Creations</h3>
+          </div>
+          <div class="promo-description">
+            <h2>Fichipizza</h2>
+            <p>A unique combination of Mediterranean and Italian pizza, topped with Mascarphone, proscuitto, figs, grando
+              panado, honey and arugula.</p>
+            <p><a href="#">More &raquo;</a></p>
+          </div>
+        </article>
+        <article>
+          <div class="promo-title pull-left">
+            <h3>This Month's Promotions</h3>
+          </div>
+          <div class="promo-description">
+            <h2>Weekend Grand Buffet</h2>
+            <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six
+              main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person
+            </p>
+            <p><a href="#">More &raquo;</a></p>
+          </div>
+        </article>
+        <article>
+          <div class="promo-title pull-right">
+            <h3>Meet our Culinary Specialists</h3>
+          </div>
+          <div class="promo-description">
+            <h2>Tommy McHugh</h2>
+            <h4>Executive Chef</h4>
+            <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who
+              in the culinary world, he specializes in creating mouthwatering Mediterranean-Italian experiences. </p>
+            <p><a href="#">More &raquo;</a></p>
+          </div>
+        </article>
+        <!-- add menu here -->
+        <div class="menu">
+          <div class="col-sm-12">
+              <h3>Today's Menu:</h3>
+              <div class="row" *ngFor="let item of menu">
+                  <div class="col-sm-2">
+                    <h5>{{ item.name }}</h5>
+                  </div>
+                  <div class="col-sm-4">
+                    <h6>{{ item.description }}</h6>
+                  </div>
+                  <div class="col-sm-2">
+                    <h6>{{ item.calories }} cals</h6>
+                  </div>
+                  <div class="col-sm-2">
+                    <h6>{{ item.price | currency }} CAD</h6>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+  </div>
+</section>

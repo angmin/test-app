@@ -1,0 +1,208 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,500i,700,900');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Ms Sans Serif', sans-serif; */
+}
+
+.container {
+    min-width: 762px;
+    max-width: 762px;
+}
+
+.header .row, footer .row, section .row {
+    padding: 0 18px 0 12px;
+}
+header .nav {
+    background-color: #2f3ba1;
+    border-bottom: #1e2458 1px solid;
+}
+header .logo {
+    margin-right: 14px;
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+nav {
+    height: 33px;
+    display: inline-block;
+}
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav li a {
+    color: #9d9d9d;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+nav a span {
+    padding-top: 10px;
+} 
+
+nav .list-inline > li {
+    padding: 0 10px;
+    margin-left: -4px;
+}
+nav li.active {
+    background-color: #191e80;
+    height: 34px;
+    padding: 0 10px;
+}
+
+nav li.active a {
+    color: #ffffff;
+}
+
+nav .caret {
+    margin-left: 4px;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;    
+}
+nav .glyphicon {
+    font-size: 8px;
+}
+.nav li span.caret {
+    vertical-align: bottom;
+    padding-top: 5px;    
+}
+
+.header {
+    background-color: #7884cd;
+    color: #fffaf0;
+}
+
+.header h1 {
+    margin-top: 60px;
+    margin-bottom: 72px;
+
+    font-size: 44px;
+    font-family: Ms Sans serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.header p {
+    color: #edeceb;
+    padding-bottom: 46px;
+    width: 67%;
+    font-size: 13.5px;
+}
+
+footer {
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin-top: 44px;
+}
+
+footer .links a {
+    font-size: 10px;
+}
+
+footer h5 {
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+footer .container {
+    background-color: #afafaf;
+}
+
+footer .row {
+    padding-top: 10px; 
+}
+.links {
+    margin: 0 62px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.4;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0 0; 
+}
+
+.contact {
+    margin: 0 32px;
+    display: inline-block;
+    line-height: 1.2;
+}
+
+address a {
+    font-size: 8px;
+}
+
+.social {
+    margin: 40px 0  0 218px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+section {
+    font-size: 9.5px;
+}
+article {
+    margin-top: 28px;
+    padding-bottom: 12px;
+}
+
+article:not(:last-child) {
+    border-bottom: #f7f7f7 1px solid;
+}
+
+section h2 {
+    font-size: 20.5px;
+    margin-bottom: 9px;
+}
+section h3 {
+    font-size: 17px;
+}
+section h4 {
+    font-size: 13px;
+    margin-top: -2px;
+    margin-bottom: 6px;    
+}
+
+.promo-title {
+    display: inline-block;
+    width: 151px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.promo-description p {
+    margin: 0 0 7px;
+}
+
+.promo-description {
+    display: inline-block;
+    width: 535px;
+}
+
+.promo-title.pull-left {
+    margin-right: 36px;
+    padding-left: 18px;    
+}
+
+.social a { display: inline-block; width: 24px; height: 24px; background: url(assets/images/sprite.png) no-repeat 0 0; }
+.social a.facebook { background-position:-25px 0; }
+.social a.linkedin { background-position:-50px 0; }
+.social a.twitter { background-position:-75px 0; }
+.social a.youtube { background-position:-100px 0; }
+.social a.email { background-position:-125px 0; }
+
+.menu {
+    margin-left: -15px;    
+}
